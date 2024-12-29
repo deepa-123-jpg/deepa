@@ -1,0 +1,29 @@
+Difference Between:
+
+1. Local Vs Global Variable
+2. Throw Vs Throws Keyword
+3. Final Vs Finally
+4. This Vs Super
+5. List Vs Set
+6. Array Vs Collection
+7. Abstract class Vs Interface
+8. Static Vs Non Static
+9. Method Vs Constructor
+10. Overloading Vs Overriding
+11. Primitive Vs Non Primitive
+12. Collection Vs Collections
+13. Generic Collection Vs Non-Generic Collection
+14. findElement Vs findElements
+15. getWindowHandel Vs getWindowHandels
+16. Relative Xpath Vs Absolute Xpath
+17. Implict Vs Explicit Wait
+18. close Vs Quit
+19. Soft Assert Vs Hard Assertion
+20. get Vs Navigate
+21. Xpth Vs css
+22. REST Vs SOAP
+23. Query Parameter Vs Path Parameter
+24. GET Vs POST
+25. PUT Vs PATCH
+26. Webservice Vs API
+27. Authentication Vs Authorization
