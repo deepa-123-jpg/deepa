@@ -1,0 +1,47 @@
+Methods of Webdriver:
+
+1. getTitle()
+2. getCurrentURL()
+3. close()
+4. get()
+5. naviate()
+6. findElement()
+7. findElements()
+8. swithTo()
+9. getWindowHandle()
+10. getWindowHandles()
+11. quit()
+12. manage()
+13. getCell()
+
+------------------------------
+
+Methods of WebElement:
+
+1. isDisplayed()
+2. isEnabled()
+3. isSelected()
+4. sendKeys()
+5. getAttribute()
+6. getTagName()
+7. getText()
+8. getSize()
+9. click()
+10. getcss()
+11. clear()
+12. getLocation()
+13. GetScreenshotAs()
+14. isMultiple()
+15. getOptions()
+16. getAllSelectedOptions()
+17. deSelectAll()
+18. Submit()
+
+
+
+
+
+
+
+
+
