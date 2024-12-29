@@ -1,0 +1,63 @@
+Methods of Webdriver:                ReturnType                Uses
+
+1. getTitle()                        String                    to get the title of the current page
+2. getCurrentURL()                   String                    to get the url of the current page
+3. close()                           void                      to close the current active window(single)
+4. get()                             void                      to launching the application
+5. naviate()                         navigation                to navigate
+   a) to()                                                     to navigate to the perticuler page/app
+   b) forward()                                                for forwarding 
+   c) backword()                                               for going back to privious page
+6. findElement()                     WebElement                to find the location of the single webElement
+7. findElements()                    List<WebElement>          to find the location of the multiple webElement 
+8. switchTo()                         void                      for switchng to the alerts and frames
+9. getWindowHandle()                 String                    for handling the single window
+10. getWindowHandles()               set<String>               for handling the multiple window
+11. quit()                           void                      for closing all the active tabs
+12. manage()                         Options class             for managing to maximize and minimize
+13. getCell()                        Cell jxl.Sheet            for reading cells
+
+------------------------------
+
+Methods of WebElement:
+
+1. isDisplayed()                     boolean                   to check the availability of the webElement
+2. isEnabled()                       boolean                   to check the element enabled or not
+3. isSelected()                      boolean                   to check the radio button or checkbox selected or not
+4. sendKeys()                        void                      for sending text to the text box
+5. getAttribute()                    String                    for getting value of the particuler locator
+6. getTagName()                      String                    for getting tagname of the particuler element
+7. getText()                         String                    to get text of the particuler element
+8. getSize()                         Dimension                 to get size of the button
+9. click()                           void                      for clicking the particuler button
+10. getcss()
+11. clear()                          void                      for clearing the entered text in the textbox
+12. getLocation()                    Point                     for getting location of the element(x,y)
+13. GetScreenshotAs()                File                      for taking screenshot
+//methods from select class   
+or for handling dropdowns
+14. isMultiple()                     boolean                   for checking the given dropdown multiple selected or not
+15. getOptions()                     List<WebElement>          for getting all the option at the perticuler dropdown
+16. getAllSelectedOptions()          List<WebElement>          for printing all the selected options(in case of multi selected dropdown)
+17. deSelectAll()                    void                      to desect all the selected options
+18. selectByValue()                  void                      to select the dropdown option by value
+19. selectByIndex()                  void                      to select the dropdown option by index
+20. selectByVisibleText()            void                      to select the dropdown option by visible text
+
+21. Submit()
+22. contents()                      String                     to read the cell value from the excel sheet
+23. performs()                      void                       for performing the mouse over actions(moveToElement())
+// alerts methods
+24. dismiss()                       void                       for canceling the alerts/popup
+25. acept()                         void                       for acepting the popup  
+26. alert()                         Alert interface            to convert from driver to alert
+
+27. maximize()                      void
+28. minimize()                      void
+
+//Action class methods
+29. moveToElement()                from action class           for moving to that particuler element
+30. contextClick()                 from action class           for right clicking the particuler element
+31. clickAndHold()                 from action class           for clicking and holding the element
+32. dragAndDrop                    from action class           for draging the element from one location to another
+33. doubleClick()                  from action class           for double clicking the element
